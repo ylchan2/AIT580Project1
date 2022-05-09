@@ -107,9 +107,11 @@ Total income adjusts, and adjusted gross income has a strong correlation which i
 The interesting thing is a standard deduction and education credit to total income have no correlation in all the data tested which is around 0.5. 
 Our team initially thought dividends and education credit can be correlated with total income.
 
-7) Limitations
-• Discuss the limitations of your analysis.
-• Provide the future work that can improve your analysis to answer your question(s). 
+## Limitations of the project
+
+The dataset has 152 attributes, and it was difficult to identify which columns are important to our visualizations and analysis. In our visualization, we use average to compare Income and tax by each state, but we all know that the mean is highly influenced by the highest and lowest value whereas the median is much better suited for skewed distribution to drive at central tendency since it is much more robust and sensible, but the nature of dataset doesn’t allow us to use median since most of the fields are already calculated.
+In the beginning, we thought it is a good dataset to create a model or to perform regress but  the value of one attribute is a calculated value of another attributes the result will be highly biased. 
+
 
 ## Codes 
 For more detail about the descriptive statistics, you can click the following link.
