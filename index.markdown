@@ -100,7 +100,7 @@ We can consult that there is a relation between total income and education credi
 
 ![](assets/corrStandardDeduction.png){:class="img-responsive"}
 
-
+### Correlation Heat Map of A Dataset
 ![](assets/CorrelationMap.png){:class="img-responsive"}
 
 Total income adjusts, and adjusted gross income has a strong correlation which is higher than 0.8.
