@@ -14,7 +14,7 @@ layout: home
 
 ## Introduction
 
-Taxes are the primary source of revenue for governments. Among other things, this money is spent to improve and maintain public infrastructure, and fund public schools, emergency services, welfare programs, and national security or defense.  (Kagan, 2021) Every year, the US Internal Revenue Service (IRS) collects data about Individual income tax returns. This data contains relatively large numbers of columns, which makes the data collection process very expensive and difficult to do some data analysis like creating models. In this project, we will visualize the data, figure out the correlation and relationship between some attributes, and create a model for prediction purposes. This data analysis benefits government officials to report and make projections and researchers in making policies and research taxpayer compliance and administration.
+Taxes are the primary source of revenue for governments. Among other things, this money is spent to improve and maintain public infrastructure, and fund public schools, emergency services, welfare programs, and national security or defense.  (Kagan, 2021) Every year, the US Internal Revenue Service (IRS) collects data about Individual income tax returns. In this project we use a data collected for tax year 2019. This data contains relatively large numbers of columns, which makes the data collection process very expensive and difficult to do some data analysis like creating models. In this project, we will visualize the data, figure out the correlation and relationship between some attributes, and create a model for prediction purposes. This data analysis benefits government officials to report and make projections and researchers in making policies and research taxpayer compliance and administration.
 		
 
 ![](assets/title3.jpg){:class="img-responsive"}
@@ -54,27 +54,24 @@ In this project we are trying to answer the following questions.
 
 ## Requirements and Resources needed
 
-In this project, Tableau is used for map-based visualization. R is used for initial descriptive statistics and correlation analysis. 
-The IRS data separate data into states and level of income of the people. IRS data needs to pre-process and grouped data into each state in order to process.  
+In this project, Tableau and R is used for map-based visualization. R is used for initial descriptive statistics and correlation analysis. Since the data has 152 attributes and each attribute was assigned by a variable instead of descriptive column names, we had to select some of the attributes and assign column names in the data frame based on the requirements of our data analysis and visualization using panda’s package in python.
 
-The size of Individual income tax return data at the state and ZIP code level contains over 165k records and 126 attributes which shows the data contains every single detail about individual tax return, 
-but this large size is somehow difficult to do some analysis like creating a model or clustering. 
-Since the data has 126 columns it is difficult and visually less appealing to put the exact description of each column therefore this description was represented by some variables. 
-Most of the attributes are in numbers about the detail of the tax income and expense, as example, total income, education expenses. 
-
+## Descriptive Analysis
 ![](assets/daatasetDescribtion.png){:class="img-responsive"}
 The above table show the mean, standard deviation, minimum of total income, ordinary dividends, tax refund and standard deduction fields in the IRS dataset.
 For more detail about the descriptive statistics, you can click [here](https://github.com/ylchan2/AIT580Project1/blob/main/analysis/AIT580final.ipynb){:target="_blank"}{:rel="noopener noreferrer"}
 
-1) Visualize Adjusted gross income at state level
+### Visualization of  Average Individual Income at state level
 
 ![](assets/tax_income.png){:class="img-responsive"}
 
 Average income In Washington DC, Connecticut and Massachusetts is highest  where West Virginia and Mississippi are the lowest. Generally average income in west cost is higher and lower in the south.
 
+### Visualization of  Average Individual Income Tax at state level
+
 ![](assets/total_income1.jpg){:class="img-responsive"}
 
-The total income per state are little bit different than average income per states. Californa and Taxes are the highest because those states has more people in it. 
+Average individual Income tax  in Texas, New York, and California is higher where in Wasington DC, Alaska and Delware is the lowest.Even though dc has the highest average individual income, it has the lowest Average individual tax. This implies most DC residents earn the lowest income and some residents earn the highest income which influences the district’s average income. In this case, we need to use median income which is less influenced by the high income of a few residents.  
 
 ![](assets/total_income_vs_adjustable_income.jpg){:class="img-responsive"}
 
