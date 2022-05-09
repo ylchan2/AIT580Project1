@@ -6,7 +6,7 @@ layout: home
 
 ---
 
-<h1>Exploring the different income related to investment and expense in America</h1>
+<h1>Exploring the different income related to investment and expense in USA</h1>
 
 ![](assets/title.jpg){:class="img-responsive"}
 <h6>Photo by <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kelly Sikkema</a> on <a href="https://unsplash.com/s/photos/income-tax?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></h6>
