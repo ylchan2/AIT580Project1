@@ -49,8 +49,8 @@ In this project we are trying to answer the following questions.
 
 1) Visualize average individual income at state level.
 2) Visualize average individual tax at state level.
-2) Calculate the correlation between education credit and total income.
-3) What is the correlation between taxable income and  Itemized deduction? and  What is the correlation between taxable income and Standard Deduction? compare the results.
+3) Calculate the correlation between education credit and total income.
+4) What is the correlation between taxable income and  Itemized deduction? and  What is the correlation between taxable income and Standard Deduction? compare the results.
 
 ## Requirements and Resources needed
 
@@ -58,8 +58,11 @@ In this project, Tableau and R is used for map-based visualization. R is used fo
 
 ## Descriptive Analysis
 ![](assets/daatasetDescribtion.png){:class="img-responsive"}
+
 The above table show the mean, standard deviation, minimum of total income, ordinary dividends, tax refund and standard deduction fields in the IRS dataset.
-For more detail about the descriptive statistics, you can click [here](https://github.com/ylchan2/AIT580Project1/blob/main/analysis/AIT580final.ipynb){:target="_blank"}{:rel="noopener noreferrer"}
+For more detail about the descriptive statistics, you can click the following link.
+<!-- Links -->
+(https://github.com/ylchan2/AIT580Project1/blob/main/analysis/AIT580final.ipynb){:target="_blank"}{:rel="noopener noreferrer"}
 
 ### Visualization of  Average Individual Income at state level
 
@@ -78,7 +81,7 @@ Average individual Income tax  in Texas, New York, and California is higher wher
 Size of adjusted gross income are ranked from 1 to 6. 1 = 1 to 25000, 2 = 25000 to 50000, 3 = 50000 to 75000, 4 = 75000 to 100000, 5 = 100000 to 200000, 6 = 200000 or more
 The above graph show the total income per each of the ranked. Most of the people are at 200000 or more. But as we see in the graph, there are more people 25000 to 50000 than 75000 to 100000.
 
-2) Calculate the correlation between education credit and total income
+3) Calculate the correlation between education credit and total income
 
 ![](assets/educationvstotalincome.png){:class="img-responsive"}
 
@@ -94,7 +97,7 @@ Correlation graph with only group 1 = 1 to 25000
 Correlation graph with only group 5 = 100000 to 200000. As we can see the above two graph, there is a stronger correlation between total income and education credit after the data being seperated.
 We can consult that there is a relation between total income and education credit but only if we seperate data into correct group.
 
-3) Calculate and visualize the correlation between total income and adjustable income
+4) What is the correlation between taxable income and  Itemized deduction? and  What is the correlation between taxable income and Standard Deduction? compare the results.
 
 ![](assets/corrItemizeddeductionandTaxableIncome.png){:class="img-responsive"}
 
@@ -103,15 +106,12 @@ We can consult that there is a relation between total income and education credi
 
 ![](assets/correlation.jpg){:class="img-responsive"}
 
-Total income adjust, and adjust gross income has strong correlation which is higher than 0.8.
-The interesting thing are standard deduction and education credit to total income has the no correlation of all the data tested which is around 0.5. 
+Total income adjusts, and adjusted gross income has a strong correlation which is higher than 0.8.
+The interesting thing is a standard deduction and education credit to total income have no correlation in all the data tested which is around 0.5. 
 Our team initially thought dividends and education credit can be correlated with total income.
 
-
-TODO:What conclusions can be supported for each analysis?
-
 7) Limitations
-• Discuss limitations of your analysis.
+• Discuss the limitations of your analysis.
 • Provide the future work that can improve your analysis to answer your question(s). 
 
 ## References
