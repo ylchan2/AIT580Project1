@@ -118,9 +118,9 @@ In the beginning, we thought it is a good dataset to create a model or to perfor
 
 ## Codes Used in the Project
 For more detail about the descriptive statistics, you can click the following link.
-<!-- Links -->
-<a href="https://github.com/ylchan2/AIT580Project1/blob/main/analysis/AIT580final.ipynb">AIT580final.ipynb</a>
-<a href="https://github.com/ylchan2/AIT580Project1/blob/main/analysis/taxProject.r.r">taxProject.r.r</a>
+
+<p><a href="https://github.com/ylchan2/AIT580Project1/blob/main/analysis/AIT580final.ipynb">AIT580final.ipynb</a></p>
+<p><a href="https://github.com/ylchan2/AIT580Project1/blob/main/analysis/taxProject.r.r">taxProject.r.r</a></p>
 
 
 ## References
