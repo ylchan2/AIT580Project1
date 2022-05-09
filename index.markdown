@@ -120,7 +120,7 @@ In the beginning, we thought it is a good dataset to create a model or to perfor
 For more detail about the descriptive statistics, you can click the following link.
 <!-- Links -->
 <a href="https://github.com/ylchan2/AIT580Project1/blob/main/analysis/AIT580final.ipynb">AIT580final.ipynb</a>
-<a href="hhttps://github.com/ylchan2/AIT580Project1/blob/main/analysis/taxProject.r.r">taxProject.r.r</a>
+<a href="https://github.com/ylchan2/AIT580Project1/blob/main/analysis/taxProject.r.r">taxProject.r.r</a>
 
 
 ## References
