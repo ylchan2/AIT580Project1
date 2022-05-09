@@ -30,7 +30,7 @@ Individual income tax return data at the state and ZIP code level is collected b
 
 • Why did they collect the data (purpose)?
 
-	* To make projections
+  * To make projections
   * To prepare reports
   * To make estimates of frequencies of taxpayer entries recorded on the applicable lines of the forms and schedules filed     with corporation tax returns
   * To research taxpayer compliance and administration.
