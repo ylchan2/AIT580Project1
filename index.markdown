@@ -119,15 +119,12 @@ In the beginning, we thought it is a good dataset to create a model or to perfor
 ## Codes Used in the Project
 For more detail about the descriptive statistics, you can click the following link.
 <!-- Links -->
-[https://github.com/ylchan2/AIT580Project1/blob/main/analysis/AIT580final.ipynb]
-[https://github.com/ylchan2/AIT580Project1/blob/main/analysis/taxProject.r.r]
+<a href="https://github.com/ylchan2/AIT580Project1/blob/main/analysis/AIT580final.ipynb">AIT580final.ipynb</a>
+<a href="hhttps://github.com/ylchan2/AIT580Project1/blob/main/analysis/taxProject.r.r">taxProject.r.r</a>
 
 
 ## References
 <!--UL-->
-* Kagan, J. (2021, October 14). Tax Definition. Retrieved from www.investopia.com: https://www.investopedia.com/terms/t/taxes.asp#:~:text=27-,Why%20Do%20We%20Pay%20Taxes%3F,emergency%20services%2C%20and%20welfare%20programs.
-* Segal, T. (2021, December 23). Internal Revenue Service (IRS). Retrieved from www.investopedia.com: https://www.investopedia.com/terms/i/irs.asp
-
-
-
+<a href="https://www.investopedia.com/terms/t/taxes.asp#:~:text=27-,Why%20Do%20We%20Pay%20Taxes%3F,emergency%20services%2C%20and%20welfare%20programs">Kagan, J. (2021, October 14). Tax Definition. Retrieved from www.investopia.com: https://www.investopedia.com/terms/t/taxes.asp#:~:text=27-,Why%20Do%20We%20Pay%20Taxes%3F,emergency%20services%2C%20and%20welfare%20programs.</a>
+<a href="https://www.investopedia.com/terms/i/irs.asp">Segal, T. (2021, December 23). Internal Revenue Service (IRS). Retrieved from www.investopedia.com: </a>
 
