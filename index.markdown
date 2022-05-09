@@ -61,7 +61,7 @@ In this project, Tableau and R is used for map-based visualization. Python is us
 
 The above table show the mean, standard deviation, minimum of total income, ordinary dividends, tax refund and standard deduction fields in the IRS dataset.
 
-## Findings our Analysis
+## Findings of our Analysis
 
 ### Visualization of  Average Individual Income at state level
 
@@ -102,7 +102,7 @@ We can consult that there is a relation between total income and education credi
 
 ![](assets/corrStandardDeduction.png){:class="img-responsive"}
 
-### Correlation Heat Map of A Dataset
+### Correlation Heat Map of the Dataset
 ![](assets/CorrelationMap.png){:class="img-responsive"}
 
 Total income adjusts, and adjusted gross income has a strong correlation which is higher than 0.8.
