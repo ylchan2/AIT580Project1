@@ -94,8 +94,8 @@ Correlation graph with only group 1 = 1 to 25000
 
 ![](assets/correlationagi5.png){:class="img-responsive"}
 
-Correlation graph with only group 5 = 100000 to 200000. As we can see the above two graph, there is a stronger correlation between total income and education credit after the data being seperated.
-We can consult that there is a relation between total income and education credit but only if we seperate data into correct group.
+Correlation graph with only group 5 = 100000 to 200000. As we can see the above two graph, there is a stronger correlation between total income and education credit after the data being seperated. The correlation for this group is 0.977936.
+We can conclude that there is a relation between total income and education credit but only if we seperate data into correct group.
 
 4) What is the correlation between taxable income and  Itemized deduction? and  What is the correlation between taxable income and Standard Deduction? compare the results.
 
