@@ -55,7 +55,9 @@ In this project we are trying to answer the following questions.
 
 1) Visualize Adjusted gross income at state level
 
-2) Calculate and visualize the correlation between different data in ISR data
+2) Calculate the correlation between education credit and total income
+
+3) Calculate and visualize the correlation between different data in ISR data
 
 Requirements and Resources needed
 
@@ -81,16 +83,16 @@ Average income In Washington DC, Connecticut and Massachusetts is highest  where
 
 The total income per state are little bit different than average income per states. Californa and Taxes are the highest because those states has more people in it. 
 
-2) Calculate and visualize the correlation between total income and adjustable income
-
 ![](assets/total_income_vs_adjustable_income.jpg){:class="img-responsive"}
 
 Size of adjusted gross income are ranked from 1 to 6. 1 = 1 to 25000, 2 = 25000 to 50000, 3 = 50000 to 75000, 4 = 75000 to 100000, 5 = 100000 to 200000, 6 = 200000 or more
 The above graph show the total income per each of the ranked. Most of the people are at 200000 or more. But as we see in the graph, there are more people 25000 to 50000 than 75000 to 100000.
 
+2) Calculate the correlation between education credit and total income
+
 ![](assets/educationvstotalincome.png){:class="img-responsive"}
 
-The graph of correlation of the between education and total income look like there are two lines. As the above graph which show that there are lowest and highest income group have the most people.
+The graph of correlation of the between education credit and total income look like there are two lines. As the above graph which show that there are lowest and highest income group have the most people.
 There is no correlation because lowest and highest income group has a different rate of using income vs education.
 
 ![](assets/correlationagi1.png){:class="img-responsive"}
@@ -99,8 +101,10 @@ Correlation graph with only group 1 = 1 to 25000
 
 ![](assets/correlationagi5.png){:class="img-responsive"}
 
-Correlation graph with only group 5 = 100000 to 200000. The correlation is with each group income. Data needed to be sepearate into different group in order to result.
+Correlation graph with only group 5 = 100000 to 200000. As we can see the above two graph, there is a stronger correlation between total income and education credit after the data being seperated.
+We can consult that there is a relation between total income and education credit but only if we seperate data into correct group.
 
+3) Calculate and visualize the correlation between total income and adjustable income
 
 ![](assets/corrItemizeddeductionandTaxableIncome.png){:class="img-responsive"}
 
