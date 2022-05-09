@@ -115,6 +115,7 @@ Our team initially thought dividends and education credit can be correlated with
 For more detail about the descriptive statistics, you can click the following link.
 <!-- Links -->
 [(https://github.com/ylchan2/AIT580Project1/blob/main/analysis/AIT580final.ipynb]
+[https://github.com/ylchan2/AIT580Project1/blob/main/analysis/taxProject.r.r]
 
 ## References
 <!--UL-->
