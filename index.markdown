@@ -11,13 +11,10 @@ layout: home
 ![](assets/title.jpg){:class="img-responsive"}
 <h6>Photo by <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kelly Sikkema</a> on <a href="https://unsplash.com/s/photos/income-tax?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></h6>
 
+Introduction
 
-Taxes are the primary source of revenue for governments. Among other things, this money is spent to improve and maintain public infrastructure, 
-fund public school, emergency services and welfare programs and national security or defense. (Kagan, 2021) 
-Every year US Internal Revenue Service (IRS) collects data about Individual income tax return and this data contains relatively large numbers of columns which makes data collection 
-process very expensive and difficult to do some data analysis like creating models. In this project we will visualize the data, 
-figure out the correlation and relationship between some attributes and, we will create a model for prediction purpose. 
-This data analysis benefits government officials to report and make projections and researchers in making policies and research taxpayer compliance and administration.		
+Taxes are the primary source of revenue for governments. Among other things, this money is spent to improve and maintain public infrastructure, and fund public schools, emergency services, welfare programs, and national security or defense.  (Kagan, 2021) Every year, the US Internal Revenue Service (IRS) collects data about Individual income tax returns. This data contains relatively large numbers of columns, which makes the data collection process very expensive and difficult to do some data analysis like creating models. In this project, we will visualize the data, figure out the correlation and relationship between some attributes, and create a model for prediction purposes. This data analysis benefits government officials to report and make projections and researchers in making policies and research taxpayer compliance and administration.
+	
 
 ![](assets/title3.jpg){:class="img-responsive"}
 <h6>Photo by <a href="https://unsplash.com/@walkingondream?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Olga DeLawrence</a> on <a href="https://unsplash.com/s/photos/tax?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></h6>
