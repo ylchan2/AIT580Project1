@@ -54,7 +54,7 @@ In this project we are trying to answer the following questions.
 
 ## Requirements and Resources needed
 
-In this project, Tableau and R is used for map-based visualization. R is used for initial descriptive statistics and correlation analysis. Since the data has 152 attributes and each attribute was assigned by a variable instead of descriptive column names, we had to select some of the attributes and assign column names in the data frame based on the requirements of our data analysis and visualization using panda’s package in python.
+In this project, Tableau and R is used for map-based visualization. Python is used for initial descriptive statistics and correlation analysis. Since the data has 152 attributes and each attribute was assigned by a variable instead of descriptive column names, we had to select some of the attributes and assign column names in the data frame based on the requirements of our data analysis and visualization using panda’s package in python.
 
 ## Descriptive Analysis
 ![](assets/daatasetDescribtion.png){:class="img-responsive"}
@@ -116,8 +116,9 @@ In the beginning, we thought it is a good dataset to create a model or to perfor
 ## Codes 
 For more detail about the descriptive statistics, you can click the following link.
 <!-- Links -->
-[(https://github.com/ylchan2/AIT580Project1/blob/main/analysis/AIT580final.ipynb]
-[https://github.com/ylchan2/AIT580Project1/blob/main/analysis/taxProject.r.r]
+<a herf="https://github.com/ylchan2/AIT580Project1/blob/main/analysis/AIT580final.ipynb">IT580final.ipynb</a>
+<a herf="https://github.com/ylchan2/AIT580Project1/blob/main/analysis/taxProject.r.r">taxProject.r.r</a>
+<a herf="https://github.com/ylchan2/AIT580Project1/blob/main/analysis/AIT580 finalproject.twb">AIT580 finalproject.twb</a>
 
 ## References
 <!--UL-->
