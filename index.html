@@ -3,12 +3,12 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>AIT580 Project | Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</title>
+<title>AIT580 Project | Design by Rock Chan and Sadam Assen</title>
 <meta name="generator" content="Jekyll v4.2.2" />
 <meta property="og:title" content="AIT580 Project" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+<meta name="description" content="Design by Rock Chan and Sadam Assen" />
+<meta property="og:description" content="Design by Rock Chan and Sadam Assen" />
 <link rel="canonical" href="http://localhost:4000/AIT580Project1/" />
 <meta property="og:url" content="http://localhost:4000/AIT580Project1/" />
 <meta property="og:site_name" content="AIT580 Project" />
@@ -16,7 +16,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="AIT580 Project" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","headline":"AIT580 Project","name":"AIT580 Project","url":"http://localhost:4000/AIT580Project1/"}</script>
+{"@context":"https://schema.org","@type":"WebSite","description":"Design by Rock Chan and Sadam Assen","headline":"AIT580 Project","name":"AIT580 Project","url":"http://localhost:4000/AIT580Project1/"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/AIT580Project1/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/AIT580Project1/feed.xml" title="AIT580 Project" /></head>
 <body><header class="site-header" role="banner">
@@ -36,9 +36,9 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <div class="home"><h1>Exploring the different income related to investments and expenses in USA (tax year 2019)</h1>
-
-<p><img src="assets/title.jpg" alt="" class="img-responsive" /></p>
+        <div class="home"><h1>Exploring Individual Income Tax Return related to Investments and Expenses in USA (tax year 2019)</h1>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>                                               by Sadam Asen and Rock Chan ![](assets/title.jpg){:class="img-responsive"}
+</code></pre></div></div>
 <h6>Photo by <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kelly Sikkema</a> on <a href="https://unsplash.com/s/photos/income-tax?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></h6>
 
 <h2 id="introduction">Introduction</h2>
@@ -63,7 +63,7 @@
   <li>To make estimates of frequencies of taxpayer entries recorded on the applicable lines of the forms and schedules filed     with corporation tax returns</li>
   <li>To research taxpayer compliance and administration.</li>
   <li>To estimate gross domestic product</li>
-  <li>To help in the development of national income accounts.</li> 
+  <li>To help in the development of national income accounts.</li>
   <li>For tax policy research.</li>
 </ul>
 
@@ -81,14 +81,16 @@
 3) Calculate the correlation between education credit and total income.
 4) What is the correlation between taxable income and  Itemized deduction? and  What is the correlation between taxable income and Standard Deduction? compare the results.</p>
 
-<h2 id="requirements-and-resources-needed">Requirements and Resources needed</h2>
+<h2 id="requirements-and-resources-needed-for-the-project">Requirements and Resources needed for the Project</h2>
 
 <p>In this project, Tableau and R is used for map-based visualization. Python is used for initial descriptive statistics and correlation analysis. Since the data has 152 attributes and each attribute was assigned by a variable instead of descriptive column names, we had to select some of the attributes and assign column names in the data frame based on the requirements of our data analysis and visualization using panda’s package in python.</p>
 
-<h2 id="descriptive-analysis">Descriptive Analysis</h2>
+<h2 id="descriptive-analysis-of-the--dataset">Descriptive Analysis of the  Dataset</h2>
 <p><img src="assets/daatasetDescribtion.png" alt="" class="img-responsive" /></p>
 
 <p>The above table show the mean, standard deviation, minimum of total income, ordinary dividends, tax refund and standard deduction fields in the IRS dataset.</p>
+
+<h2 id="findings-of-our-analysis">Findings of our Analysis</h2>
 
 <h3 id="visualization-of--average-individual-income-at-state-level">Visualization of  Average Individual Income at state level</h3>
 
@@ -129,7 +131,7 @@ We can consult that there is a relation between total income and education credi
 
 <p><img src="assets/corrStandardDeduction.png" alt="" class="img-responsive" /></p>
 
-<h3 id="correlation-heat-map-of-a-dataset">Correlation Heat Map of A Dataset</h3>
+<h3 id="correlation-heat-map-of-the-dataset">Correlation Heat Map of the Dataset</h3>
 <p><img src="assets/CorrelationMap.png" alt="" class="img-responsive" /></p>
 
 <p>Total income adjusts, and adjusted gross income has a strong correlation which is higher than 0.8.
@@ -141,12 +143,11 @@ Our team initially thought dividends and education credit can be correlated with
 <p>The dataset has 152 attributes, and it was difficult to identify which columns are important to our visualizations and analysis. In our visualization, we use average to compare Income and tax by each state, but we all know that the mean is highly influenced by the highest and lowest value whereas the median is much better suited for skewed distribution to drive at central tendency since it is much more robust and sensible, but the nature of dataset doesn’t allow us to use median since most of the fields are already calculated.
 In the beginning, we thought it is a good dataset to create a model or to perform regress but  the value of one attribute is a calculated value of another attributes the result will be highly biased.</p>
 
-<h2 id="codes">Codes</h2>
+<h2 id="codes-used-in-the-project">Codes Used in the Project</h2>
 <p>For more detail about the descriptive statistics, you can click the following link.
 <!-- Links -->
-<a herf="https://github.com/ylchan2/AIT580Project1/blob/main/analysis/AIT580final.ipynb">IT580final.ipynb</a>
-<a herf="https://github.com/ylchan2/AIT580Project1/blob/main/analysis/taxProject.r.r">taxProject.r.r</a>
-<a herf="https://github.com/ylchan2/AIT580Project1/blob/main/analysis/AIT580 finalproject.twb">AIT580 finalproject.twb</a></p>
+[https://github.com/ylchan2/AIT580Project1/blob/main/analysis/AIT580final.ipynb]
+[https://github.com/ylchan2/AIT580Project1/blob/main/analysis/taxProject.r.r]</p>
 
 <h2 id="references">References</h2>
 <!--UL-->
@@ -175,7 +176,7 @@ In the beginning, we thought it is a good dataset to create a model or to perfor
 </div>
 
       <div class="footer-col footer-col-3">
-        <p>Designed by Rock Chan and Sadam Assen</p>
+        <p>Design by Rock Chan and Sadam Assen</p>
       </div>
     </div>
 
