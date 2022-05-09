@@ -6,11 +6,11 @@ layout: home
 
 ---
 
-
 <h1>Exploring the different income related to investment and expense in America</h1>
 
 ![](assets/title.jpg){:class="img-responsive"}
-[Photo by Kelly Sikkema](https://unsplash.com/@kellysikkema?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText){:target="_blank"}{:rel="noopener noreferrer"}
+<h6>Photo by <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kelly Sikkema</a> on <a href="https://unsplash.com/s/photos/income-tax?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></h6>
+
 
 Taxes are the primary source of revenue for governments. Among other things, this money is spent to improve and maintain public infrastructure, 
 fund public school, emergency services and welfare programs and national security or defense. (Kagan, 2021) 
@@ -20,7 +20,8 @@ figure out the correlation and relationship between some attributes and, we will
 This data analysis benefits government officials to report and make projections and researchers in making policies and research taxpayer compliance and administration.		
 
 ![](assets/title3.jpg){:class="img-responsive"}
-[Photo by Olga DeLawrence](https://unsplash.com/@walkingondream?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText){:target="_blank"}{:rel="noopener noreferrer"}
+<h6>Photo by <a href="https://unsplash.com/@walkingondream?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Olga DeLawrence</a> on <a href="https://unsplash.com/s/photos/tax?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></h6>
+
 
 Individual income tax return data at the state and ZIP code level is collected by US Internal Revenue Service (IRS). 
 The Internal Revenue Service (IRS) is a U.S. government agency responsible for the collection of taxes and enforcement of tax laws (such as the wash sale rule).
@@ -28,7 +29,7 @@ The Internal Revenue Service (IRS) is a U.S. government agency responsible for t
 and its primary purpose is the collection of individual income taxes and employment taxes. The IRS also handles corporate, gift, excise, and estate taxes. (Segal, 2021)
 
 ![](assets/absolutvision-82TpEld0_e4-unsplash.jpg){:class="img-responsive"}
-[Photo by AbsolutVision](https://unsplash.com/@freegraphictoday?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText){:target="_blank"}{:rel="noopener noreferrer"}
+<h6>Photo by <a href="https://unsplash.com/@freegraphictoday?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">AbsolutVision</a> on <a href="https://unsplash.com/s/photos/purpose?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></h6>
 
 Why did they collect the data (purpose)?
 
@@ -48,7 +49,7 @@ Individual tax statistics only provide the number of taxpayers in each state.
 There are no names or details of each person with their tax payment. Privacy and quality are accurate and easy to read. 
 
 ![](assets/title4.jpg){:class="img-responsive"}
-[Photo by Mika Baumeister](https://unsplash.com/@mbaumi?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText){:target="_blank"}{:rel="noopener noreferrer"}
+<h6>Photo by <a href="https://unsplash.com/@mbaumi?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mika Baumeister</a> on <a href="https://unsplash.com/s/photos/excel?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></h6>
 
 In this project we are trying to answer the following questions.
 
@@ -85,6 +86,9 @@ The total income per state are little bit different than average income per stat
 Size of adjusted gross income are ranked from 1 to 6. 1 = 1 to 25000, 2 = 25000 to 50000, 3 = 50000 to 75000, 4 = 75000 to 100000, 5 = 100000 to 200000, 6 = 200000 or more
 The above graph show the total income per each of the ranked. The lowest and highest income group has more people in. Middle are less.
 
+![](assets/corrItemizeddeductionandTaxableIncome.png){:class="img-responsive"}
+
+![](assets/corrStandardDeduction.png){:class="img-responsive"}
 
 2) Calculate and visualize the correlation between different data in ISR data
 ![](assets/correlation.jpg){:class="img-responsive"}
@@ -93,9 +97,10 @@ Total income adjust, and adjust gross income has strong correlation which is hig
 The interesting thing are standard deduction and education credit to total income has the no correlation of all the data tested which is around 0.5. 
 Our team initially thought dividends and education credit can be correlated with total income.
 
-![](assets/corrItemizeddeductionandTaxableIncome.png){:class="img-responsive"}
+![](assets/educationvstotalincome.png){:class="img-responsive"}
 
-![](assets/corrStandardDeduction.png){:class="img-responsive"}
+The graph of correlation of the between education and total income look like there are two lines. As the above graph which show that there are lowest and highest income group have the most people.
+There is no correlation because lowest and highest income group has a different rate of using income vs education.
 
 
 What conclusions can be supported for each analysis?
