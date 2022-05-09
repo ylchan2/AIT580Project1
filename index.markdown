@@ -19,6 +19,10 @@ Taxes are the primary source of revenue for governments. Among other things, thi
 ![](assets/title3.jpg){:class="img-responsive"}
 <h6>Photo by <a href="https://unsplash.com/@walkingondream?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Olga DeLawrence</a> on <a href="https://unsplash.com/s/photos/tax?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></h6>
 
+References
+Kagan, J. (2021, October 14). Tax Definition. Retrieved from www.investopia.com: https://www.investopedia.com/terms/t/taxes.asp#:~:text=27-,Why%20Do%20We%20Pay%20Taxes%3F,emergency%20services%2C%20and%20welfare%20programs.
+Segal, T. (2021, December 23). Internal Revenue Service (IRS). Retrieved from www.investopedia.com: https://www.investopedia.com/terms/i/irs.asp
+
 
 Individual income tax return data at the state and ZIP code level is collected by US Internal Revenue Service (IRS). 
 The Internal Revenue Service (IRS) is a U.S. government agency responsible for the collection of taxes and enforcement of tax laws (such as the wash sale rule).
