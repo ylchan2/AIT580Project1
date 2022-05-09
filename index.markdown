@@ -9,10 +9,7 @@ layout: home
 <h1>Exploring Individual Income Tax Return related to Investments and Expenses in USA (tax year 2019)</h1>
 <<<<<<< HEAD
                                                    by Sadam Asen and Rock Chan
-=======
-                                                   by Sadam Asen and 
-<!--UL-->
->>>>>>> 717e7c293bd36bb607bf4554e0d0eb7494b4c44c
+
 ![](assets/title.jpg){:class="img-responsive"}
 <h6>Photo by <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kelly Sikkema</a> on <a href="https://unsplash.com/s/photos/income-tax?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></h6>
 
