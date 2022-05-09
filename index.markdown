@@ -81,29 +81,40 @@ Average income In Washington DC, Connecticut and Massachusetts is highest  where
 
 The total income per state are little bit different than average income per states. Californa and Taxes are the highest because those states has more people in it. 
 
+2) Calculate and visualize the correlation between total income and adjustable income
+
 ![](assets/total_income_vs_adjustable_income.jpg){:class="img-responsive"}
 
 Size of adjusted gross income are ranked from 1 to 6. 1 = 1 to 25000, 2 = 25000 to 50000, 3 = 50000 to 75000, 4 = 75000 to 100000, 5 = 100000 to 200000, 6 = 200000 or more
-The above graph show the total income per each of the ranked. The lowest and highest income group has more people in. Middle are less.
-
-![](assets/corrItemizeddeductionandTaxableIncome.png){:class="img-responsive"}
-
-![](assets/corrStandardDeduction.png){:class="img-responsive"}
-
-2) Calculate and visualize the correlation between different data in ISR data
-![](assets/correlation.jpg){:class="img-responsive"}
-
-Total income adjust, and adjust gross income has strong correlation which is higher than 0.8.
-The interesting thing are standard deduction and education credit to total income has the no correlation of all the data tested which is around 0.5. 
-Our team initially thought dividends and education credit can be correlated with total income.
+The above graph show the total income per each of the ranked. Most of the people are at 200000 or more. But as we see in the graph, there are more people 25000 to 50000 than 75000 to 100000.
 
 ![](assets/educationvstotalincome.png){:class="img-responsive"}
 
 The graph of correlation of the between education and total income look like there are two lines. As the above graph which show that there are lowest and highest income group have the most people.
 There is no correlation because lowest and highest income group has a different rate of using income vs education.
 
+![](assets/correlationagi1.png){:class="img-responsive"}
 
-What conclusions can be supported for each analysis?
+Correlation graph with only group 1 = 1 to 25000
+
+![](assets/correlationagi5.png){:class="img-responsive"}
+
+Correlation graph with only group 5 = 100000 to 200000. The correlation is with each group income. Data needed to be sepearate into different group in order to result.
+
+
+![](assets/corrItemizeddeductionandTaxableIncome.png){:class="img-responsive"}
+
+![](assets/corrStandardDeduction.png){:class="img-responsive"}
+
+
+![](assets/correlation.jpg){:class="img-responsive"}
+
+Total income adjust, and adjust gross income has strong correlation which is higher than 0.8.
+The interesting thing are standard deduction and education credit to total income has the no correlation of all the data tested which is around 0.5. 
+Our team initially thought dividends and education credit can be correlated with total income.
+
+
+TODO:What conclusions can be supported for each analysis?
 
 7) Limitations
 • Discuss limitations of your analysis.
