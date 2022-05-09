@@ -60,9 +60,6 @@ In this project, Tableau and R is used for map-based visualization. R is used fo
 ![](assets/daatasetDescribtion.png){:class="img-responsive"}
 
 The above table show the mean, standard deviation, minimum of total income, ordinary dividends, tax refund and standard deduction fields in the IRS dataset.
-For more detail about the descriptive statistics, you can click the following link.
-<!-- Links -->
-(https://github.com/ylchan2/AIT580Project1/blob/main/analysis/AIT580final.ipynb){:target="_blank"}{:rel="noopener noreferrer"}
 
 ### Visualization of  Average Individual Income at state level
 
@@ -113,6 +110,11 @@ Our team initially thought dividends and education credit can be correlated with
 7) Limitations
 • Discuss the limitations of your analysis.
 • Provide the future work that can improve your analysis to answer your question(s). 
+
+## Codes 
+For more detail about the descriptive statistics, you can click the following link.
+<!-- Links -->
+[(https://github.com/ylchan2/AIT580Project1/blob/main/analysis/AIT580final.ipynb]
 
 ## References
 <!--UL-->
