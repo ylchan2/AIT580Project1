@@ -120,7 +120,7 @@ For more detail about the descriptive statistics, you can click the following li
 <!-- Links -->
 [https://github.com/ylchan2/AIT580Project1/blob/main/analysis/AIT580final.ipynb">IT580final.ipynb]
 [https://github.com/ylchan2/AIT580Project1/blob/main/analysis/taxProject.r.r">taxProject.r.]
-[https://github.com/ylchan2/AIT580Project1/blob/main/analysis/AIT580 finalproject.twb">AIT580 finalproject.twb]
+[https://github.com/ylchan2/AIT580Project1/blob/main/analysis/AIT580/finalproject.twb]
 
 ## References
 <!--UL-->
