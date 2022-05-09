@@ -100,9 +100,9 @@ We can consult that there is a relation between total income and education credi
 4) What is the correlation between taxable income and  Itemized deduction? and  What is the correlation between taxable income and Standard Deduction? compare the results.
 
 ![](assets/corrItemizeddeductionandTaxableIncome.png){:class="img-responsive"}
-
+The correlation between itemized deduction and taxable income is 0.88.
 ![](assets/corrStandardDeduction.png){:class="img-responsive"}
-
+The correlation between standard deduction and taxable income is 0.88.
 ### Correlation Heat Map of the Dataset
 ![](assets/CorrelationMap.png){:class="img-responsive"}
 
