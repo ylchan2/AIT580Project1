@@ -58,6 +58,7 @@ In this project, Tableau and R is used for map-based visualization. R is used fo
 
 ## Descriptive Analysis
 ![](assets/daatasetDescribtion.png){:class="img-responsive"}
+
 The above table show the mean, standard deviation, minimum of total income, ordinary dividends, tax refund and standard deduction fields in the IRS dataset.
 For more detail about the descriptive statistics, you can click [here](https://github.com/ylchan2/AIT580Project1/blob/main/analysis/AIT580final.ipynb){:target="_blank"}{:rel="noopener noreferrer"}
 
