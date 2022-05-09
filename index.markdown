@@ -12,54 +12,47 @@ layout: home
 <h6>Photo by <a href="https://unsplash.com/@kellysikkema?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Kelly Sikkema</a> on <a href="https://unsplash.com/s/photos/income-tax?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></h6>
 
 
-Taxes are the primary source of revenue for governments. Among other things, this money is spent to improve and maintain public infrastructure, 
-fund public school, emergency services and welfare programs and national security or defense. (Kagan, 2021) 
-Every year US Internal Revenue Service (IRS) collects data about Individual income tax return and this data contains relatively large numbers of columns which makes data collection 
-process very expensive and difficult to do some data analysis like creating models. In this project we will visualize the data, 
-figure out the correlation and relationship between some attributes and, we will create a model for prediction purpose. 
-This data analysis benefits government officials to report and make projections and researchers in making policies and research taxpayer compliance and administration.		
+## Introduction
+
+Taxes are the primary source of revenue for governments. Among other things, this money is spent to improve and maintain public infrastructure, and fund public schools, emergency services, welfare programs, and national security or defense.  (Kagan, 2021) Every year, the US Internal Revenue Service (IRS) collects data about Individual income tax returns. This data contains relatively large numbers of columns, which makes the data collection process very expensive and difficult to do some data analysis like creating models. In this project, we will visualize the data, figure out the correlation and relationship between some attributes, and create a model for prediction purposes. This data analysis benefits government officials to report and make projections and researchers in making policies and research taxpayer compliance and administration.
+		
 
 ![](assets/title3.jpg){:class="img-responsive"}
 <h6>Photo by <a href="https://unsplash.com/@walkingondream?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Olga DeLawrence</a> on <a href="https://unsplash.com/s/photos/tax?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></h6>
 
+## Nature of the Data Curation
 
-Individual income tax return data at the state and ZIP code level is collected by US Internal Revenue Service (IRS). 
-The Internal Revenue Service (IRS) is a U.S. government agency responsible for the collection of taxes and enforcement of tax laws (such as the wash sale rule).
-1 Established in 1862 by then-President Abraham Lincoln, the agency operates under the authority of the U.S. Department of the Treasury, 
-and its primary purpose is the collection of individual income taxes and employment taxes. The IRS also handles corporate, gift, excise, and estate taxes. (Segal, 2021)
+Individual income tax return data at the state and ZIP code level is collected by US Internal Revenue Service (IRS). The Internal Revenue Service (IRS) is a U.S. government agency responsible for the collection of taxes and enforcement of tax laws (such as the wash sale rule).1 Established in 1862 by then-President Abraham Lincoln, the agency operates under the authority of the U.S. Department of the Treasury, and its primary purpose is the collection of individual income taxes and employment taxes. The IRS also handles corporate, gift, excise, and estate taxes. (Segal, 2021)
+
 
 ![](assets/absolutvision-82TpEld0_e4-unsplash.jpg){:class="img-responsive"}
 <h6>Photo by <a href="https://unsplash.com/@freegraphictoday?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">AbsolutVision</a> on <a href="https://unsplash.com/s/photos/purpose?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></h6>
 
-Why did they collect the data (purpose)?
+• Why did they collect the data (purpose)?
 
-Ø To make projections
+	* To make projections
+  * To prepare reports
+  * To make estimates of frequencies of taxpayer entries recorded on the applicable lines of the forms and schedules filed     with corporation tax returns
+  * To research taxpayer compliance and administration.
+  * To estimate gross domestic product
+  * To help in the development of national income accounts.
+  * For tax policy research.
+ 
+Individual tax statistics data are numerical and discrete. The IRS provides data for the tax result each year. The individual tax statistics data are a very detailed category for each tax element. Individual tax statistics only provide the number of taxpayers in each state. There are no names or details of each person with their tax payment. Privacy and quality are accurate and easy to read.
 
-Ø To research taxpayer compliance and administration.
-
-Ø To help in the development of national income accounts.
-
-IRS tax US residents to benefit people including building roads and bridges or provide basic utility for US residents. 
-The IRS also collects how much taxpayers pay and how much they can be deducted from the government. 
-The nature of the data is from the filled in form from the taxpayers. 
-Individual tax statistics data are numerical and discrete. The IRS provides data for the tax result each year. 
-The individual tax statistics data are a very detailed category for each tax element. 
-Too many variables means the outcome can be overlooked and need much time to research. 
-Individual tax statistics only provide the number of taxpayers in each state. 
-There are no names or details of each person with their tax payment. Privacy and quality are accurate and easy to read. 
+The size of Individual income tax return data at the state and ZIP code level contains over 165k records and 152 attributes which shows the data contains every single detail about an individual tax return, but this large size is somehow difficult to do some analysis like creating a model or clustering. Since the data has 152 columns it is difficult and visually less appealing to put the exact description of each column therefore this description was represented by some variables. The data along with the documentation guide available for free source.
 
 ![](assets/title4.jpg){:class="img-responsive"}
 <h6>Photo by <a href="https://unsplash.com/@mbaumi?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Mika Baumeister</a> on <a href="https://unsplash.com/s/photos/excel?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></h6>
 
 In this project we are trying to answer the following questions.
 
-1) Visualize Adjusted gross income at state level
+1) Visualize average individual income at state level.
+2) Visualize average individual tax at state level.
+2) Calculate the correlation between education credit and total income.
+3) What is the correlation between taxable income and  Itemized deduction? and  What is the correlation between taxable income and Standard Deduction? compare the results.
 
-2) Calculate the correlation between education credit and total income
-
-3) Calculate and visualize the correlation between different data in ISR data
-
-Requirements and Resources needed
+## Requirements and Resources needed
 
 In this project, Tableau is used for map-based visualization. R is used for initial descriptive statistics and correlation analysis. 
 The IRS data separate data into states and level of income of the people. IRS data needs to pre-process and grouped data into each state in order to process.  
