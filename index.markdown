@@ -7,7 +7,6 @@ layout: home
 ---
 
 <h1>Exploring Individual Income Tax Return related to Investments and Expenses in USA (tax year 2019)</h1>
-<<<<<<< HEAD
                                                    by Sadam Asen and Rock Chan
 
 ![](assets/title.jpg){:class="img-responsive"}
