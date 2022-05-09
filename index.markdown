@@ -52,14 +52,16 @@ In this project we are trying to answer the following questions.
 3) Calculate the correlation between education credit and total income.
 4) What is the correlation between taxable income and  Itemized deduction? and  What is the correlation between taxable income and Standard Deduction? compare the results.
 
-## Requirements and Resources needed
+## Requirements and Resources needed for the Project
 
 In this project, Tableau and R is used for map-based visualization. R is used for initial descriptive statistics and correlation analysis. Since the data has 152 attributes and each attribute was assigned by a variable instead of descriptive column names, we had to select some of the attributes and assign column names in the data frame based on the requirements of our data analysis and visualization using panda’s package in python.
 
-## Descriptive Analysis
+## Descriptive Analysis of the  Dataset
 ![](assets/daatasetDescribtion.png){:class="img-responsive"}
 
 The above table show the mean, standard deviation, minimum of total income, ordinary dividends, tax refund and standard deduction fields in the IRS dataset.
+
+## Findings our Analysis
 
 ### Visualization of  Average Individual Income at state level
 
@@ -113,7 +115,7 @@ The dataset has 152 attributes, and it was difficult to identify which columns a
 In the beginning, we thought it is a good dataset to create a model or to perform regress but  the value of one attribute is a calculated value of another attributes the result will be highly biased. 
 
 
-## Codes 
+## Codes Used in the Project
 For more detail about the descriptive statistics, you can click the following link.
 <!-- Links -->
 [(https://github.com/ylchan2/AIT580Project1/blob/main/analysis/AIT580final.ipynb]
