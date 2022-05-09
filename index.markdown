@@ -48,10 +48,10 @@ The size of Individual income tax return data at the state and ZIP code level co
 
 In this project we are trying to answer the following questions.
 
-<p>1 Visualize average individual income at state level.</p>
-<p>2 Visualize average individual tax at state level.</p>
-<p>3 Calculate the correlation between education credit and total income.</p>
-<p>4 What is the correlation between taxable income and  Itemized deduction? and  What is the correlation between taxable income and Standard Deduction? compare the results.</p>
+<p>1) Visualize average individual income at state level.</p>
+<p>2) Visualize average individual tax at state level.</p>
+<p>3) Calculate the correlation between education credit and total income.</p>
+<p>4) What is the correlation between taxable income and  Itemized deduction? and  What is the correlation between taxable income and Standard Deduction? compare the results.</p>
 
 ## Requirements and Resources needed for the Project
 
